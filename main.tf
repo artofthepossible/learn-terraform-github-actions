@@ -12,7 +12,8 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "684703981398"
+    organization = "gh-actions-demos"
+
 
     workspaces {
       name = "gh-actions-demos"
