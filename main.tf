@@ -17,8 +17,8 @@ terraform {
       name = "gh-actions-demos"
     }
     credentials "app.terraform.io" {
-  token = "cxo3MxJ1k0n7dA.atlasv1.ILshRz44PouoMWneKm8fMLFDiuQN5UuzhXbAkaMhr0GTS4YHOvb9tHxa3ccAeEuZyZ8"
-}
+    token = "cxo3MxJ1k0n7dA.atlasv1.ILshRz44PouoMWneKm8fMLFDiuQN5UuzhXbAkaMhr0GTS4YHOvb9tHxa3ccAeEuZyZ8"
+    }
   }
 }
 
