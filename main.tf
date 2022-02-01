@@ -13,7 +13,6 @@ terraform {
 
   cloud {
     organization = "gh-actions-demos"
-
     workspaces {
       name = "gh-actions-demos"
     }
