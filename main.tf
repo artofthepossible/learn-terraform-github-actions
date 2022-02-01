@@ -21,7 +21,9 @@ terraform {
   }
 }
 
-
+credentials "app.terraform.io" {
+  token = "TashiGiHubToken"
+}
 provider "aws" {
   region = "us-west-2"
 }
