@@ -15,7 +15,7 @@ terraform {
     organization = "684703981398"
 
     workspaces {
-      name = "gh-actions-demo"
+      name = "gh-actions-demos"
     }
   }
 }
@@ -53,13 +53,4 @@ resource "aws_security_group" "web-sg" {
 
 output "web-address" {
   value = "${aws_instance.web.public_dns}:8080"
-}
-terraform {
-  cloud {
-    organization = "gh-actions-demos"
-
-    workspaces {
-      name = "gh-actions-demos"
-    }
-  }
 }
